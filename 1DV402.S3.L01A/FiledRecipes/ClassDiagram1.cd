@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="FiledRecipes.App.Controls.Menu" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="27.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAEAAAAAAAAAABAAAA=</HashCode>
+      <FileName>App\Controls\Menu.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FiledRecipes.App.Controls.MenuItem" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="29.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAEAAAABAAAAAAAAAAAAAEAKAAAABA=</HashCode>
+      <FileName>App\Controls\MenuItem.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FiledRecipes.App.Controls.MessagePanel" Collapsed="true">
+    <Position X="5.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAEAAAAAAAAgABAAAA=</HashCode>
+      <FileName>App\Controls\MessagePanel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FiledRecipes.App.Controls.Panel" Collapsed="true">
+    <Position X="7.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAEAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>App\Controls\Panel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FiledRecipes.App.Controls.PanelBase" Collapsed="true">
+    <Position X="6.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAABAEAAAAAAAACAAAAAA=</HashCode>
+      <FileName>App\Controls\PanelBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FiledRecipes.StringExtensions" Collapsed="true">
+    <Position X="29.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App\Extensions\StringExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FiledRecipes.Application" Collapsed="true">
+    <Position X="24.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Application.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FiledRecipes.ContainerBootstrapper" Collapsed="true">
+    <Position X="26" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>ContainerBootstrapper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FiledRecipes.Program" Collapsed="true">
+    <Position X="26" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FiledRecipes.App.Input.CancelCommand" Collapsed="true">
+    <Position X="19.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App\Input\CancelCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FiledRecipes.App.Input.ChangeLanguageCommand" Collapsed="true">
+    <Position X="1.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App\Input\ChangeLanguageCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FiledRecipes.App.Input.CommandBase" Collapsed="true">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAIAAAAAAAABA=</HashCode>
+      <FileName>App\Input\CommandBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FiledRecipes.App.Input.DeleteCommand" Collapsed="true">
+    <Position X="8.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App\Input\DeleteCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FiledRecipes.App.Input.DeleteListCommand" Collapsed="true">
+    <Position X="12.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App\Input\DeleteListCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FiledRecipes.App.Input.ExitCommand" Collapsed="true">
+    <Position X="17.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App\Input\ExitCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FiledRecipes.App.Input.OpenCommand" Collapsed="true">
+    <Position X="21.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App\Input\OpenCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FiledRecipes.App.Input.SaveCommand" Collapsed="true">
+    <Position X="3.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App\Input\SaveCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FiledRecipes.App.Input.ViewAllCommand" Collapsed="true">
+    <Position X="6" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App\Input\ViewAllCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FiledRecipes.App.Input.ViewCommand" Collapsed="true">
+    <Position X="10.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App\Input\ViewCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FiledRecipes.App.Input.ViewListCommand" Collapsed="true">
+    <Position X="15" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App\Input\ViewListCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FiledRecipes.App.Mvp.MenuModelBase" Collapsed="true">
+    <Position X="6.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAhAAAAAABAABAAAAAAgAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>App\Mvp\MenuModelBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FiledRecipes.App.Mvp.ViewBase">
+    <Position X="1.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BQAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>App\Mvp\ViewBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FiledRecipes.Models.MainMenuModel" Collapsed="true">
+    <Position X="5.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\MainMenuModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FiledRecipes.Models.RecipeMenuModel" Collapsed="true">
+    <Position X="7.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\RecipeMenuModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FiledRecipes.Presenters.MenuPresenter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="24.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAACAAAABAAAA=</HashCode>
+      <FileName>Presenters\MenuPresenter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FiledRecipes.Presenters.RecipePresenter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="27.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAgIAAAABAAAAAAAAAAAAAAAEEAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Presenters\RecipePresenter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FiledRecipes.Presenters.ToolsPresenter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="26" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Presenters\ToolsPresenter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FiledRecipes.Properties.Strings" Collapsed="true">
+    <Position X="24.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQgAAIkAQgCEAEACAAABEDAgKQQpAICAAAAAAAAAAoA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FiledRecipes.Views.MenuView" Collapsed="true">
+    <Position X="0.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAEAAAAAAAAACBAAAA=</HashCode>
+      <FileName>Views\MenuView.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FiledRecipes.Views.RecipeView">
+    <Position X="2.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\RecipeView.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="FiledRecipes.App.Controls.IMenu" Collapsed="true">
+    <Position X="26" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAEAAAAAAAAAABAAAA=</HashCode>
+      <FileName>App\Controls\IMenu.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FiledRecipes.App.Controls.IMenuItem" Collapsed="true">
+    <Position X="27.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAEAAAABAAAAAAAAAAAAAEAKAAAAAA=</HashCode>
+      <FileName>App\Controls\IMenuItem.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FiledRecipes.App.ILanguageChanged" Collapsed="true">
+    <Position X="0.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>App\ILanguageChanged.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FiledRecipes.App.Input.ICommand" Collapsed="true">
+    <Position X="24.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>App\Input\ICommand.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FiledRecipes.App.Mvp.IMenuModel" Collapsed="true">
+    <Position X="29.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App\Mvp\IMenuModel.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FiledRecipes.App.Mvp.IView" Collapsed="true">
+    <Position X="1.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BQAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>App\Mvp\IView.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FiledRecipes.Presenters.IMenuPresenter" Collapsed="true">
+    <Position X="24.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Presenters\IMenuPresenter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FiledRecipes.Presenters.IRecipePresenter" Collapsed="true">
+    <Position X="26" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAgIAAAAAAAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Presenters\IRecipePresenter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FiledRecipes.Presenters.IToolsPresenter" Collapsed="true">
+    <Position X="0.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Presenters\IToolsPresenter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FiledRecipes.Views.IMenuView" Collapsed="true">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAEAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Views\IMenuView.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FiledRecipes.Views.IRecipeView">
+    <Position X="2.75" Y="7.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\IRecipeView.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="FiledRecipes.App.Controls.MessagePanelOptions" Collapsed="true">
+    <Position X="24.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAgAAAAAAAAAAAECAAAI=</HashCode>
+      <FileName>App\Controls\MessagePanel.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

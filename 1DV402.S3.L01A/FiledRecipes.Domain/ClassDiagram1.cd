@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="FiledRecipes.Domain.Recipe" BaseTypeListCollapsed="true">
+    <Position X="6" Y="0.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAIAIAAAAAAAAAQAgABAACQAAAAIAIAAAAAAAAAAAjQ=</HashCode>
+      <FileName>Recipe.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FiledRecipes.Domain.RecipeRepository" BaseTypeListCollapsed="true">
+    <Position X="10.25" Y="0.5" Width="2.75" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="FiledRecipes.Domain.RecipeRepository.RecipeReadStatus">
+        <TypeIdentifier>
+          <NewMemberFileName>RecipeRepository.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAgYAAAAACABARCAIAAAAAAAMAAAAAAgAAAAEAAAA=</HashCode>
+      <FileName>RecipeRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Struct Name="FiledRecipes.Domain.Ingredient" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAQEgAAAAASAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ingredient.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Interface Name="FiledRecipes.Domain.IIngredient">
+    <Position X="0.5" Y="3.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IIngredient.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FiledRecipes.Domain.IRecipe">
+    <Position X="3.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAACQAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IRecipe.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FiledRecipes.Domain.IRecipeRepository">
+    <Position X="0.5" Y="5.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAAAAAAABAAIAAAAAAAMAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>IRecipeRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

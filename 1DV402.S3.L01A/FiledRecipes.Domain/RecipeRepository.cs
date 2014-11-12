@@ -4,12 +4,7 @@ using System.IO;
 using System.Linq;
 
 namespace FiledRecipes.Domain
-{
-
-    /// In this file, add method Save and Load.
-    
-    
-    /// 
+{ 
     /// <summary>
     /// Holder for recipes.
     /// </summary>
@@ -130,6 +125,87 @@ namespace FiledRecipes.Domain
             {
                 // Use the () operator to raise the event.
                 handler(this, e);
+            }
+        }
+        /// THE LOAD METHOD - "1. ÖPPNA":
+        /// If user opts 1 - the method should open/load the text-file "recipes.txt", then read and parse each line in order to create a <List> of recipes 
+        /// which leaves the user with further options in ways of managing the list.
+        /// 
+        /// (Recipe format:
+        /// Varje recept består av avdelningarna [Recept], [Ingredienser] och [Instruktioner]. Raden som 
+        /// följer efter [Recept] är receptets namn. Raderna som följer efter [Ingredienser], fram till 
+        /// [Instruktioner] är receptets ingredienser där varje rad innehåller en ingrediens. Raderna som följer 
+        /// [Instruktioner], fram till [Recept] eller slutet på filen, är receptets instruktioner där varje rad är en 
+        /// instruktion.)
+        /// 
+        /// Algorithm of .Load() which creates a list with references to Recipe-objects:
+        /// 
+        /// 1. Create List which can contain ref's to rec-obj's
+        /// 2. Open .txt for reading.
+        /// 3. Read line from .txt til end of file.
+        ///     a. If empty line - continue to read next line.
+        ///     b. If section of new recipe [Recept] - next line is recipe name.
+        ///     c. If section of [Ingredienser] - set status to "following lines are ingredients".
+        ///     d. Section of [Instruktioner] - status = following lines are instructions.
+        ///     e. Else - a name, an ingredient, an instruction.
+        ///         i. - if status = name - create new recipe-obj with the name.
+        ///         ii. - status = ingredient - split the line using the method Split() in the class String. Should always be in 3 parts due to the ";".
+        ///                                   - if amount of parts != 3 - throw FileFormatException.
+        ///                                   - Create an ingredient-obj and initiate with the 3 parts of amount, unit and name.
+        ///                                   - Add the ingredient to the recipe's list of ingredients.
+        ///         iii. - status = instruction - Add line to recipe's list of instructions. 
+        ///         iv. - else... something is wrong = throw FileFormatException.
+        /// 4. Sort list of recipes based on name.
+        /// 5. Assign relevant field in class "_recipes" with a reference to the list.
+        /// 6. Assign relevant property in the class "IsModified" a value indicating that the list of recipes is unchanged.
+        /// 7. Call method "OnRecipesChanged" with parameter (EventArgs.Empty) to let the app know recipes have been loaded/read.
+
+        public void Load()
+        {
+            //List<Recipe> recipeList = new List<Recipe>();
+
+            try
+            {
+                using (StreamReader reader = new StreamReader("recipes.txt"))
+                {
+                    string line;
+
+                    while ((line = reader.ReadLine()) != null)
+                    {
+                        Console.WriteLine(line);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Oväntat fel inträffade!\n {0}", ex.Message);
+            }
+        }
+
+        /// THE SAVE METHOD - "2. SPARA":
+        /// User opts 2 - recipes should be permanently saved in the text file by first opening the file then writing each recipe, line by line. 
+        /// If the file already exists it should be replaced/overwritten.  
+        /// 
+
+        public void Save()
+        {
+            try
+            {
+                using (StreamWriter writer = new StreamWriter(""))
+                {
+                    writer.WriteLine("");
+                    writer.WriteLine("");
+                    writer.WriteLine("");
+
+                    writer.Write(writer.NewLine);
+                    writer.WriteLine();
+                }
+
+                Console.WriteLine("Skapade en fil med några rader.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Oväntat fel inträffade!\n {0}", ex.Message);
             }
         }
     }
