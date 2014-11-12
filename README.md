@@ -1,4 +1,7 @@
-1dv402-ss223dd-3-1-recept-pa-fil
-================================
+3.1 Recept på fil
+=================
+[3-1-recept-pa-fil.pdf](https://github.com/1dv402/kursmaterial/raw/master/Laborationsuppgifter/3-1-recept-pa-fil.pdf)
 
-My solution for the assignment "3.1 Recept på fil".
+![ScreenShot](README.png)
+
+"Du ska komplettera en något större applikation för hantering av recept. Applikationen är i stort färdig men behöver kompletteras med fyra metoder för att det ska gå att visa recept, hämta recept från och skriva recept till en textfil...."
