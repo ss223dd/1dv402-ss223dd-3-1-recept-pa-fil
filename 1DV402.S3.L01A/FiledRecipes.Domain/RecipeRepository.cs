@@ -162,17 +162,65 @@ namespace FiledRecipes.Domain
 
         public void Load()
         {
-            //List<Recipe> recipeList = new List<Recipe>();
+            List<IRecipe> recipeList = new List<IRecipe>();
+
+            RecipeReadStatus readStatus = RecipeReadStatus.Indefinite;
 
             try
             {
-                using (StreamReader reader = new StreamReader("recipes.txt"))
+                using (StreamReader reader = new StreamReader(_path))
                 {
                     string line;
 
                     while ((line = reader.ReadLine()) != null)
                     {
-                        Console.WriteLine(line);
+                        if (string.IsNullOrWhiteSpace(line))
+                        {
+                            continue;
+                        }
+                        switch (line)
+                        {
+                            case SectionRecipe:
+                                readStatus = RecipeReadStatus.New;
+                                break;
+
+                            case SectionIngredients:
+                                readStatus = RecipeReadStatus.Ingredient;
+                                break;
+
+                            case SectionInstructions:
+                                readStatus = RecipeReadStatus.Instruction;
+                                break;
+                        }
+                        switch (readStatus)
+                        {
+                            case RecipeReadStatus.New:
+                                recipeList.Add(new Recipe(line));
+                                    break;
+
+                            case RecipeReadStatus.Ingredient:
+                                string[] splitParts = line.Split(';');
+                                    
+                                    
+                                    
+                                    /// ii. - status = ingredient - split the line using the method Split() in the class String. Should always be in 3 parts due to the ";".
+                                    ///                           - if amount of parts != 3 - throw FileFormatException.
+                                    ///                           - Create an ingredient-obj and initiate with the 3 parts of amount, unit and name.
+                                    ///                           - Add the ingredient to the recipe's list of ingredients.
+                                if(splitParts.Length != 3)
+                                {
+                                    throw new FileFormatException();
+                                }
+                                
+                                
+
+                                break;
+
+                            case RecipeReadStatus.Instruction:
+                                // iii. - status = instruction - Add line to recipe's list of instructions.
+                                
+                                break;
+                        }
                     }
                 }
             }

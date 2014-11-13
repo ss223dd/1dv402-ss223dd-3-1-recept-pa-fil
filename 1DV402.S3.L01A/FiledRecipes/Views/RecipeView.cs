@@ -12,7 +12,14 @@ namespace FiledRecipes.Views
     /// </summary>
     public class RecipeView : ViewBase, IRecipeView
     {
-      
+        public void Show(IRecipe recipe)
+        {
+
+        }
+        public void Show(IEnumerable<IRecipe> recipes)
+        {
+
+        }
     }
     /// THE VIEW RECIPE METHOD - "4. VISA RECEPT"
     /// User opts 4 - a list with the name of all recipes should be shown from which the user opts which one to present in full detail.
